@@ -9,7 +9,13 @@ import { BiArrowBack } from "react-icons/bi";
 export default function HeroBanner() {
   return (
     <div className="relative tex-white text-[20px] w-full max-w-[1360px] mx-auto">
-      <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false} showIndicators={false} showStatus={false}>
+      <Carousel
+        autoPlay={true}
+        infiniteLoop={true}
+        showThumbs={false}
+        showIndicators={false}
+        showStatus={false}
+      >
         <div>
           <img src="/slide-1.png" className="aspect-[16/10] md:aspect-auto" />
           <div
